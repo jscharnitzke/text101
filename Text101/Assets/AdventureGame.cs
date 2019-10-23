@@ -14,12 +14,37 @@ public class AdventureGame : MonoBehaviour
     void Start()
     {
         currentState = startingState;
-        textComponent.text = currentState.getStoryText();
+        updateStoryText();
     }
 
     // Update is called once per frame
     void Update()
     {
+        manageState();
+    }
 
+    private void manageState()
+    {
+        State[] nextStates = currentState.getNextStates();
+
+        if (Input.GetKeyDown(KeyCode.Alpha1) && nextStates.Length > 0)
+        {
+            currentState = nextStates[0];
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha2) && nextStates.Length > 1)
+        {
+            currentState = nextStates[1];
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha3) && nextStates.Length > 2)
+        {
+            currentState = nextStates[2];
+        }
+
+        updateStoryText();
+    }
+
+    private void updateStoryText()
+    {
+        textComponent.text = currentState.getStoryText();
     }
 }

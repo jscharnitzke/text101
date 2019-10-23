@@ -10,13 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3f1d3e2d575ee614f832e23673ba389e, type: 3}
-  m_Name: StartingState
+  m_Name: Area 2
   m_EditorClassIdentifier: 
-  storyText: "You stretch in the chill morning air and yawn. Above you, hints of pink
-    peek through the canopy where you can just make out the dawnlight-painted sky.
-    \r\n\r\nYou glance at the cave mouth in the rock wall behind you where you spent
-    the night.\r "
-  optionText: Go back to the cave.
+  storyText: You are in area 2
+  optionText: You're still sleepy. Go back into the cave.
   nextStates:
   - {fileID: 11400000, guid: 73bb6119f42f4a74d9a15229129910e7, type: 2}
-  - {fileID: 11400000, guid: 0cbb46793cbe144408108e286a37e86f, type: 2}
+  - {fileID: 11400000, guid: 3c24ad1ab8ade7c41b3554767aeb70c7, type: 2}
