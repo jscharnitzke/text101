@@ -9,12 +9,15 @@ public class AdventureGame : MonoBehaviour
     [SerializeField] State startingState;
 
     State currentState;
+    Player player;
 
     // Start is called before the first frame update
     void Start()
     {
+        this.player = ScriptableObject.CreateInstance<Player>();
+
         currentState = startingState;
-        updateStoryText();
+        updateStoryText(this.player);
     }
 
     // Update is called once per frame
@@ -25,7 +28,7 @@ public class AdventureGame : MonoBehaviour
 
     private void manageState()
     {
-        State[] nextStates = currentState.getNextStates();
+        State[] nextStates = currentState.getNextStates(this.player);
 
         if (Input.GetKeyDown(KeyCode.Alpha1) && nextStates.Length > 0)
         {
@@ -40,11 +43,11 @@ public class AdventureGame : MonoBehaviour
             currentState = nextStates[2];
         }
 
-        updateStoryText();
+        updateStoryText(this.player);
     }
 
-    private void updateStoryText()
+    private void updateStoryText(Player player)
     {
-        textComponent.text = currentState.getStoryText();
+        textComponent.text = currentState.getStoryText(this.player);
     }
 }
