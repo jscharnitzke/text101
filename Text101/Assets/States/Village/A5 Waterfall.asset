@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f1d3e2d575ee614f832e23673ba389e, type: 3}
+  m_Name: A5 Waterfall
+  m_EditorClassIdentifier: 
+  storyText: There's a waterfall feeding into a river that runs east-west.
+  optionText: Continue north toward the noise
+  condition: 
+  reward: 
+  consumedItem: 
+  nextStates:
+  - {fileID: 11400000, guid: ae00b7a949cac8b4483cab73d9cccd7d, type: 2}
+  - {fileID: 11400000, guid: 46f6e2b236ca59f49aea7cf52cf9a953, type: 2}

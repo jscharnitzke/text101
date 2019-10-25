@@ -16,7 +16,7 @@ public class AdventureGame : MonoBehaviour
     {
         this.player = ScriptableObject.CreateInstance<Player>();
 
-        currentState = startingState;
+        currentState = startingState.init(this.player);
         updateStoryText(this.player);
     }
 
@@ -32,15 +32,15 @@ public class AdventureGame : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Alpha1) && nextStates.Length > 0)
         {
-            currentState = nextStates[0];
+            currentState = nextStates[0].init(this.player);
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2) && nextStates.Length > 1)
         {
-            currentState = nextStates[1];
+            currentState = nextStates[1].init(this.player);
         }
         else if (Input.GetKeyDown(KeyCode.Alpha3) && nextStates.Length > 2)
         {
-            currentState = nextStates[2];
+            currentState = nextStates[2].init(this.player);
         }
 
         updateStoryText(this.player);

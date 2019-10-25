@@ -58,7 +58,12 @@ public class State : ScriptableObject
 
     private string buildDisplayText(Player player)
     {
-        string displayText = storyText + "\n\nWhat do you do?\n";
+        string displayText = storyText;
+
+        if (this.nextStates.Length > 0)
+        {
+            displayText += "\n\nWhat do you do?\n";
+        }
 
         int optionNumber = 1;
 

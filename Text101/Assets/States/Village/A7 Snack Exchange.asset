@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3f1d3e2d575ee614f832e23673ba389e, type: 3}
-  m_Name: Area 2
+  m_Name: A7 Snack Exchange
   m_EditorClassIdentifier: 
-  storyText: You are in area 2
-  optionText: You're still sleepy. Go back into the cave.
-  condition: rock
-  nextStates:
-  - {fileID: 11400000, guid: 73bb6119f42f4a74d9a15229129910e7, type: 2}
-  - {fileID: 11400000, guid: 3c24ad1ab8ade7c41b3554767aeb70c7, type: 2}
+  storyText: 
+  optionText: 
+  condition: 
+  reward: 
+  consumedItem: 
+  nextStates: []

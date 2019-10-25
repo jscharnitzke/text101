@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f1d3e2d575ee614f832e23673ba389e, type: 3}
+  m_Name: B1 Five More Minutes
+  m_EditorClassIdentifier: 
+  storyText: The cave mouth is barely wide enough to allow you passage, but you squirm
+    through. Inside, there's just enough space for you to stand in a crouch. It's
+    dark. It's warm. Your eyelids are heavy.
+  optionText: You're still sleepy. Go back into the cave.
+  condition: 
+  reward: 
+  consumedItem: 
+  nextStates:
+  - {fileID: 11400000, guid: 73bb6119f42f4a74d9a15229129910e7, type: 2}
+  - {fileID: 11400000, guid: 3c24ad1ab8ade7c41b3554767aeb70c7, type: 2}

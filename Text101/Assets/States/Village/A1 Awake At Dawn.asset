@@ -10,13 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3f1d3e2d575ee614f832e23673ba389e, type: 3}
-  m_Name: StartingState
+  m_Name: A1 Awake At Dawn
   m_EditorClassIdentifier: 
   storyText: "You stretch in the chill morning air and yawn. Above you, hints of pink
-    peek through the canopy where you can just make out the dawnlight-painted sky.
-    \r\n\r\nBehind you, the mouth of the cave where you spent the night is barely
-    noticeable in the foliage."
-  optionText: Go back to the cave.
+    peek through the canopy where you can just make out the dawnlight-painted sky.\r\n\r\nBehind
+    you, the mouth of the cave where you spent the night is barely noticeable in the
+    foliage."
+  optionText: Exit the cave
+  condition: 
+  reward: 
+  consumedItem: 
   nextStates:
   - {fileID: 11400000, guid: 73bb6119f42f4a74d9a15229129910e7, type: 2}
   - {fileID: 11400000, guid: 0cbb46793cbe144408108e286a37e86f, type: 2}
