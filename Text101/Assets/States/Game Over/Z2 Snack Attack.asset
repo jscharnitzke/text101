@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f1d3e2d575ee614f832e23673ba389e, type: 3}
   m_Name: Z2 Snack Attack
   m_EditorClassIdentifier: 
-  storyText: 
-  optionText: 
+  storyText: Dude beat you to death with a club.
+  optionText: Attack the guy
   condition: 
   reward: 
   consumedItem: 

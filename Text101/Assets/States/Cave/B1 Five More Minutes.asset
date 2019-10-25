@@ -20,5 +20,5 @@ MonoBehaviour:
   reward: 
   consumedItem: 
   nextStates:
-  - {fileID: 11400000, guid: 73bb6119f42f4a74d9a15229129910e7, type: 2}
-  - {fileID: 11400000, guid: 3c24ad1ab8ade7c41b3554767aeb70c7, type: 2}
+  - {fileID: 11400000, guid: cf92230e81f33184c876e984f4a306be, type: 2}
+  - {fileID: 11400000, guid: 8b22e4b3cc423394894fa42476a8c5cd, type: 2}

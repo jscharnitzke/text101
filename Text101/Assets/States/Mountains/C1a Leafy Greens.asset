@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f1d3e2d575ee614f832e23673ba389e, type: 3}
   m_Name: C1a Leafy Greens
   m_EditorClassIdentifier: 
-  storyText: 
-  optionText: 
+  storyText: Get food
+  optionText: Look closer at the plants
   condition: 
-  reward: 
+  reward: food
   consumedItem: 
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: 73bb6119f42f4a74d9a15229129910e7, type: 2}
+  - {fileID: 11400000, guid: defe7fc5242656047842eff30537cef1, type: 2}

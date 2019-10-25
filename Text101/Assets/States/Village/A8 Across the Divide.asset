@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f1d3e2d575ee614f832e23673ba389e, type: 3}
   m_Name: A8 Across the Divide
   m_EditorClassIdentifier: 
-  storyText: 
-  optionText: 
-  condition: 
+  storyText: You're on the other side of the river now. There is a wide road leading
+    west.
+  optionText: Trade your food for passage across
+  condition: food
   reward: 
-  consumedItem: 
-  nextStates: []
+  consumedItem: food
+  nextStates:
+  - {fileID: 11400000, guid: da1a82e1ebe420b49878fdbef00e0c2d, type: 2}

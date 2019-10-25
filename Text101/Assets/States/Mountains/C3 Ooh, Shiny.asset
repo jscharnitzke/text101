@@ -12,9 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f1d3e2d575ee614f832e23673ba389e, type: 3}
   m_Name: C3 Ooh, Shiny
   m_EditorClassIdentifier: 
-  storyText: 
-  optionText: 
+  storyText: It looks like another cliff. There's something shiny up there. North
+    leads back to the cliff you climbed. There's a large cave with a steep drop next
+    to it to the south.
+  optionText: Head to the rock wall
   condition: 
   reward: 
   consumedItem: 
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: defe7fc5242656047842eff30537cef1, type: 2}
+  - {fileID: 11400000, guid: 704b9214d4784734292005615359a12f, type: 2}
+  - {fileID: 11400000, guid: d110451858ced514999c587111c101f4, type: 2}

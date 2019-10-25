@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f1d3e2d575ee614f832e23673ba389e, type: 3}
   m_Name: A2 Taking Stock
   m_EditorClassIdentifier: 
-  storyText: "All around you are dense, deciduous trees. A breeze sighs lightly through
+  storyText: All around you are dense, deciduous trees. A breeze sighs lightly through
     the leaves. Fist-sized rocks litter the ground around you. Tangled undergrowth
-    makes passage through the forest difficult, but the brush gives way in two directions.\r\n\r\nTo
-    the west are some leafy plants, low to the ground. To the north you spy a clearing."
+    makes passage through the forest difficult. To the west are some leafy plants,
+    low to the ground. To the north you spy a clearing.
   optionText: Investigate the area around the cave
   condition: 
   reward: 

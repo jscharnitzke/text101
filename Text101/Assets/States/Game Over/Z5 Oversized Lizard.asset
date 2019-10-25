@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f1d3e2d575ee614f832e23673ba389e, type: 3}
   m_Name: Z5 Oversized Lizard
   m_EditorClassIdentifier: 
-  storyText: 
-  optionText: 
-  condition: 
+  storyText: That just made him made. You got et.
+  optionText: Throw rock at dinosaur
+  condition: rock
   reward: 
-  consumedItem: 
+  consumedItem: rock
   nextStates: []

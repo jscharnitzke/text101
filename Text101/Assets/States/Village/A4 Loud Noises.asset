@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f1d3e2d575ee614f832e23673ba389e, type: 3}
   m_Name: A4 Loud Noises
   m_EditorClassIdentifier: 
-  storyText: Noise is a loud, dull roar.
-  optionText: 
+  storyText: To the north you can see a waterfall. The noise is now a low, dull roar.
+    South of you is a clearing.
+  optionText: Follow the path
   condition: 
   reward: 
   consumedItem: 

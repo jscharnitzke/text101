@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f1d3e2d575ee614f832e23673ba389e, type: 3}
   m_Name: B2a Rock On
   m_EditorClassIdentifier: 
-  storyText: 
-  optionText: 
+  storyText: You emerge from the cave and look around blearily. You rub your eyes.
+    Your stomach rumbles. To the north, you can see some bushes that look to be roughly
+    chest high. The forest also looks passable to the west.
+  optionText: Time to get up, I guess. Leave the cave.
   condition: 
   reward: 
   consumedItem: 
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: 94da623ebd7baa84790329623040209e, type: 2}
+  - {fileID: 11400000, guid: ed222f2d8daf89643b0776a97dedbd65, type: 2}

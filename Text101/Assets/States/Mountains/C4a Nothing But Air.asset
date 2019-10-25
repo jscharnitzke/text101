@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f1d3e2d575ee614f832e23673ba389e, type: 3}
   m_Name: C4a Nothing But Air
   m_EditorClassIdentifier: 
-  storyText: 
-  optionText: 
-  condition: 
+  storyText: Your rock's gone now dummy.
+  optionText: Throw rock over the cliff
+  condition: rock
   reward: 
-  consumedItem: 
-  nextStates: []
+  consumedItem: rock
+  nextStates:
+  - {fileID: 11400000, guid: 843f607d2a090fd49bdb7a16b131f9b8, type: 2}

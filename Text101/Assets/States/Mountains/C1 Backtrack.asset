@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f1d3e2d575ee614f832e23673ba389e, type: 3}
   m_Name: C1 Backtrack
   m_EditorClassIdentifier: 
-  storyText: 
-  optionText: 
+  storyText: This is back the way you came yesterday. You see a spot you can climb
+    the rock face that you missed in the dark.
+  optionText: Head toward the ground level foliage
   condition: 
   reward: 
   consumedItem: 
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: 5f0190ef3af371d4fb5922480eebbb12, type: 2}
+  - {fileID: 11400000, guid: defe7fc5242656047842eff30537cef1, type: 2}
+  - {fileID: 11400000, guid: 73bb6119f42f4a74d9a15229129910e7, type: 2}

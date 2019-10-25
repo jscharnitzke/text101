@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f1d3e2d575ee614f832e23673ba389e, type: 3}
   m_Name: A5 Waterfall
   m_EditorClassIdentifier: 
-  storyText: There's a waterfall feeding into a river that runs east-west.
-  optionText: Continue north toward the noise
+  storyText: There's a waterfall falling into a river that runs east-west. To the
+    south is a path. East along the river is a thin column of smoke.
+  optionText: Go to the waterfall
   condition: 
   reward: 
   consumedItem: 

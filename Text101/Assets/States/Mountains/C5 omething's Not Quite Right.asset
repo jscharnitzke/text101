@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f1d3e2d575ee614f832e23673ba389e, type: 3}
   m_Name: C5 omething's Not Quite Right
   m_EditorClassIdentifier: 
-  storyText: 
-  optionText: 
-  condition: 
+  storyText: The dino gets distracted allowing you time to get away.
+  optionText: Throw the rock into the cave
+  condition: rock
   reward: 
-  consumedItem: 
-  nextStates: []
+  consumedItem: rock
+  nextStates:
+  - {fileID: 11400000, guid: 2fcda55c30aec854baacca4c70369708, type: 2}

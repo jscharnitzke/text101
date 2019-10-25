@@ -16,7 +16,12 @@ MonoBehaviour:
 
 
     This is a Choose Your Own Adventure game. In each scene, make a choice about what
-    you would like to do. Be careful! Only one path leads to victory.'
+    you would like to do. Be careful! Only one path leads to victory.
+
+
+    Your adventure starts in a small cave...
+
+'
   optionText: 
   condition: 
   reward: 

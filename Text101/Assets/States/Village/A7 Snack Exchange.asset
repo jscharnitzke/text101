@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f1d3e2d575ee614f832e23673ba389e, type: 3}
   m_Name: A7 Snack Exchange
   m_EditorClassIdentifier: 
-  storyText: 
-  optionText: 
+  storyText: You find a dude with a raft just chilling.
+  optionText: Investigate the copse
   condition: 
   reward: 
   consumedItem: 
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: 46f6e2b236ca59f49aea7cf52cf9a953, type: 2}
+  - {fileID: 11400000, guid: 6bcbe922f917f4e48bddce46690ee893, type: 2}
+  - {fileID: 11400000, guid: c8acb01ffbed6944b84f16274480ae65, type: 2}

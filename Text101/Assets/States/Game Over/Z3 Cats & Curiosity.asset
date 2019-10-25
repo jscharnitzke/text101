@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f1d3e2d575ee614f832e23673ba389e, type: 3}
   m_Name: Z3 Cats & Curiosity
   m_EditorClassIdentifier: 
-  storyText: 
-  optionText: 
+  storyText: It's really steep. You slipped and fell to your death.
+  optionText: Climb up to the shiny thing
   condition: 
   reward: 
   consumedItem: 

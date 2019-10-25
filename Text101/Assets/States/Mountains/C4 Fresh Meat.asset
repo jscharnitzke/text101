@@ -12,9 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f1d3e2d575ee614f832e23673ba389e, type: 3}
   m_Name: C4 Fresh Meat
   m_EditorClassIdentifier: 
-  storyText: 
-  optionText: 
+  storyText: 'You run into a large toothy dinosaur. He hasn''t seen you.
+
+'
+  optionText: Head toward the cave
   condition: 
   reward: 
   consumedItem: 
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: 7969bf59b9c1bef4c9e73055ba050ab4, type: 2}
+  - {fileID: 11400000, guid: 64091670d0078c2438c26e1d0d392eee, type: 2}
+  - {fileID: 11400000, guid: 843f607d2a090fd49bdb7a16b131f9b8, type: 2}
+  - {fileID: 11400000, guid: ac85c23a9f39cc24ea12a1d121d90e4e, type: 2}

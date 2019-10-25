@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f1d3e2d575ee614f832e23673ba389e, type: 3}
   m_Name: C2 Mountaineering
   m_EditorClassIdentifier: 
-  storyText: 
-  optionText: 
+  storyText: There's a break in the trees to the north. You see a rock wall in the
+    mountains to the south. The leafy plants litter the landscape below you.
+  optionText: Go to the top of the cliff
   condition: 
   reward: 
   consumedItem: 
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: 94da623ebd7baa84790329623040209e, type: 2}
+  - {fileID: 11400000, guid: 2fcda55c30aec854baacca4c70369708, type: 2}

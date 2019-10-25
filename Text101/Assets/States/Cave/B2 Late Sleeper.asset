@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f1d3e2d575ee614f832e23673ba389e, type: 3}
   m_Name: B2 Late Sleeper
   m_EditorClassIdentifier: 
-  storyText: 
-  optionText: 
+  storyText: 'You awaken groggily. There''s grit in your eyes, and the cave is uncomfortably
+    warm now. A tacky layer of sweat covers you. You''re still tired, but sleep isn''t
+    returning. '
+  optionText: Lie down and take a nap. Just five more minutes...
   condition: 
   reward: 
   consumedItem: 
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: e0f99b16feb4d6548aa1321b837b8a9d, type: 2}

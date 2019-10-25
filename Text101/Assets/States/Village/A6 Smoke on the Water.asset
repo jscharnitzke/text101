@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f1d3e2d575ee614f832e23673ba389e, type: 3}
   m_Name: A6 Smoke on the Water
   m_EditorClassIdentifier: 
-  storyText: 
-  optionText: 
+  storyText: You see smoke rising from the treeline on the other side of the river.
+    To the west is a waterfall. To the east, you see a copse of trees.
+  optionText: Follow the river toward the smoke
   condition: 
   reward: 
   consumedItem: 
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: 127866d764655704eb159a3b26befbeb, type: 2}
+  - {fileID: 11400000, guid: 8a7b84e3809bb1e48b3850af821d4138, type: 2}
+  - {fileID: 11400000, guid: 1c365209ba16da2498db4705312bae92, type: 2}

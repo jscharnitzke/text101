@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f1d3e2d575ee614f832e23673ba389e, type: 3}
   m_Name: A3 Clearcut
   m_EditorClassIdentifier: 
-  storyText: To the north, you see sunlight glistening off of something low to the
-    ground, and you hear a faint murmur. The cave is back south.
+  storyText: To the north, you see a well-traveled path, and you hear a faint murmur.
+    The cave is back south.
   optionText: Enter the clearing
   condition: 
   reward: 
